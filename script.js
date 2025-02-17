@@ -4,7 +4,7 @@ let chatContainer=document.querySelector(".chat-container")
 let btn=document.querySelector(".btn")
 let userMessage=null
 
-const Api_url='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDFksxkWupQmcb4kptJEr1x6U3Hyf7tRXQ' , you can watch it on my video
+const Api_url='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:%20generateContent?key=AIzaSyDFksxkWupQmcb4kptJEr1x6U3Hyf7tRXQ' , you can watch it on my video
 function createChatBox(html,className){
 const div=document.createElement("div")
 div.classList.add(className)
